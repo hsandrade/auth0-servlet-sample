@@ -77,17 +77,17 @@
     <!-- Auth0 Configuration -->
     <context-param>
         <param-name>auth0.domain</param-name>
-        <param-value>{DOMAIN}</param-value>
+        <param-value>hsandrade.auth0.com</param-value>
     </context-param>
 
     <context-param>
         <param-name>auth0.issuer</param-name>
-        <param-value>https://{DOMAIN}/</param-value>
+        <param-value>https://hsandrade.auth0.com/</param-value>
     </context-param>
 
     <context-param>
         <param-name>auth0.client_id</param-name>
-        <param-value>{CLIENT_ID}</param-value>
+        <param-value>waUS4pmO1IkSOB762E0xX0Ks0A9KMSR9</param-value>
     </context-param>
 
     <context-param>
@@ -98,7 +98,7 @@
 
     <context-param>
         <param-name>auth0.client_secret</param-name>
-        <param-value>{CLIENT_SECRET}</param-value>
+        <param-value>2qoQmz3TelvOeZEePCEyYXqqaSz5APkDCMUvNxuvVbsToZv6Jnm1scy6cIKSbnNY</param-value>
     </context-param>
 
     <!-- Auth0 secrets are not base64 encoded by default so leave as false -->
