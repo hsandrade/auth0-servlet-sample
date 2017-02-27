@@ -19,6 +19,7 @@ public class LoginServlet extends HttpServlet {
         final String clientDomain = getServletContext().getInitParameter("auth0.domain");
         req.setAttribute("clientId", clientId);
         req.setAttribute("clientDomain", clientDomain);
+        res.setCharacterEncoding("UTF-8");
         req.getRequestDispatcher("/WEB-INF/jsp/login.jsp").forward(req, res);
     }
 

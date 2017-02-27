@@ -31,6 +31,10 @@
         <p class="lead">Your nickname is: ${user.nickname}</p>
         <p class="lead">Your user id is: ${user.userId}</p>
         <p><img class="avatar" src="${user.picture}"/></p>
+        <p class="lead">Your e-mail: ${user.email}</p>
+        <p class="lead">Your name: ${user.name}</p>
+        <p class="lead">Your givenName: ${user.givenName}</p>
+        <p class="lead">Your familyName: ${user.familyName}</p>
     </div>
     <div class="row marketing">
         <div class="col-lg-6">
